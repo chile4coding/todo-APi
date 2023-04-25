@@ -27,7 +27,7 @@ router.post("/add-todo", createATodo);
 // delete a specific todo
 router.delete("/delete-specific-todo", deleteSpecificTodo);
 
-// delete all users todo
+// delete a user all todos
 router.delete("/delete-a-user-all-todos", deleteUserAllTodos);
 
 // delete all todos in the database
